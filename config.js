@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const dburl = "mongodb+srv://vickykumar776655:dWTInCnc9EnnR3ZT@cluster0.hv1bgmh.mongodb.net/MetaBlogs?retryWrites=true&w=majority"
+const dburl = "mongodb URI"
 
 const connectToMongose = () => {
     mongoose.connect(dburl).then(()=> {
